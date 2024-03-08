@@ -2,9 +2,9 @@ const StudentRepo= require("../RepositoryLayer/Student");
 
 class student{
 
-    constructor(name, rollno){
+    constructor(name, password){
         this.name=name;
-        this.rollno=rollno;
+        this.password=password;
     }
 
 }
